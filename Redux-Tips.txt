@@ -1,0 +1,16 @@
+Redux Tips:
+
+1. actions klasörü içinde, actionTypes.js ye aksiyonlarımı yazarım
+
+2. Aksiyonların fonksiyonlarını ilgiliAction.js dosyalarına yazarım
+    örn: categoryActions, productActions vs.
+    Fonksiyonun Redux'un anlayacağı bir obje {} return etmesini sağlarım
+    Bu objeye ilgili reducer'ın type:...'ını ve payload:...'ını bildiririm.
+
+3. Reducer'ını yazarım. İlgili reducer'da gelen aksiyonun payload'ını state olarak yazar ve return ederim (bir case komutu ile)
+
+4. Gelen data'yı initial state'e eklerim
+
+4. index.js'de bütün reducer'larımı listeye eklerim.
+
+5. configureStore.js'da bir store (depo) oluşturup, onun da rootReducer'ı içerdiğini bildiririm
