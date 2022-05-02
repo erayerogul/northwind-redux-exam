@@ -35,7 +35,7 @@ export default class Navi extends React.Component {
           <Collapse navbar>
             <Nav className="me-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Componentsss</NavLink>
+                <NavLink href="/components/">Components</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/reactstrap/reactstrap">
